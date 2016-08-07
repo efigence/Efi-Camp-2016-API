@@ -42,6 +42,7 @@
 `/code/`
 * Method: `POST`
 * Data params: `pattern[]=0&pattern[]=1&pattern[]=2&digits[]=1&digits[]=2&digits[]=3`
+* Pattern code: 123456789
 * Success response:
   * Code: 200
 
