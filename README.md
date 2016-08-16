@@ -57,3 +57,31 @@
 ```javascript
 {"status":false,"code":"c2","message":"Wrong match"}
 ```
+`/data/summary`
+* Method: `GET`
+* Success response:
+  * Code: 200
+
+```javascript
+{"status":true,"content":{"balance":78036,"funds":91923,"payments":87511}}
+```
+
+`/data/history`
+* Method: `GET`
+* Success response:
+  * Code: 200
+
+```javascript
+{"status":true,"content":[{"id":"B48YL","date":"1923-07-24T04:33:07.596Z","description":"etiam aliquam aliquam","category":"Cash","currency":"PLN","amount":238,"status":"income"}]}
+```
+
+`/data/products`
+* Method: `GET`
+* Success response:
+  * Code: 200
+
+```javascript
+{"status":true,"content":[{ "type": "Wallet", "currency": "PLN", "amount": 489.50 }]}
+```
+
+
