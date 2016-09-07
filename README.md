@@ -84,4 +84,12 @@
 {"status":true,"content":[{ "type": "Wallet", "currency": "PLN", "amount": 489.50 }]}
 ```
 
+`/data/budget`
+* Method: `GET`
+* Success response:
+  * Code: 200
+
+```javascript
+{"status":true,"content":{"year":2016,"months":[{"month":0,"summary":{"sum":314,"total":3275},"other":4764,"elements":[{"food":{"amount":677,"limit":3706,"value":481},"home":{"amount":677,"limit":3706,"value":481},"car":{"amount":677,"limit":3706,"value":481}}]}]}}
+```
 
