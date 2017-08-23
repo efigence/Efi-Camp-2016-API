@@ -93,3 +93,12 @@
 {"status":true,"content":{"year":2016,"months":[{"month":0,"summary":{"sum":314,"total":3275},"other":4764,"elements":[{"food":{"amount":677,"limit":3706,"value":481},"home":{"amount":677,"limit":3706,"value":481},"car":{"amount":677,"limit":3706,"value":481}}]}]}}
 ```
 
+`/data/chart`
+* Method: `GET`
+* Success response:
+  * Code: 200
+
+```javascript
+{"status":true,"content":[{"date":"2005-10-04T16:42:59.395Z","description":"ipsum tortor vestibulum","currency":"EUR","amount":773,"status":"income"}]}
+```
+
